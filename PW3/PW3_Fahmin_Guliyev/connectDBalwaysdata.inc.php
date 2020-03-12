@@ -5,7 +5,7 @@ ini_set('display_errors',1);
 
 $host="mysql-faxmishok.alwaysdata.net";
 $user="faxmishok";
-$passwd="EtoFaxmin5005";
+$passwd="";
 $bd="faxmishok_pw3";
 
 $link=mysqli_connect($host,$user,$passwd,$bd) or die( 'Error');
