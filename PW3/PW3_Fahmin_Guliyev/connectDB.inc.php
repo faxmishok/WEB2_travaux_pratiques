@@ -5,7 +5,7 @@ ini_set('display_errors',1);
 
 $host="localhost";
 $user="root";
-$passwd="Ufaz_2019";
+$passwd="";
 $bd="pw3";
 
 $link=mysqli_connect($host,$user,$passwd,$bd) or die( 'Error');
